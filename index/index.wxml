@@ -1,0 +1,11 @@
+
+<view class="box" wx:if="{{originalUrl}}">
+	<image src="{{originalUrl}}" mode="widthFix" class="yx-img" />
+	<view class="yx-tip">原始图片</view>
+  <image src="{{compressUrl}}" mode="widthFix" class="yx-img" />
+  <view class="yx-tip">压缩后的图片</view>
+</view>
+
+<button catchtap="onTapChooseImage" class="yx-btn">选择图片</button>
+
+<mini-compress />

@@ -1,0 +1,6 @@
+/* Components/img-about/img-helper/img-helper.wxss */
+
+.yx-yasuo{
+  position: fixed;
+  left: 1080px;
+}

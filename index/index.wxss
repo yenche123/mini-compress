@@ -1,0 +1,23 @@
+
+.yx-btn{
+  margin: 150rpx 50rpx;
+}
+
+.box{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.yx-img {
+  width: 600rpx;
+  margin-bottom: 30rpx;
+}
+
+.yx-tip {
+  text-align: center;
+  font: 30rpx;
+  margin-bottom: 50rpx;
+  color: #888;
+}

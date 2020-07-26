@@ -1,0 +1,3 @@
+<!--Components/img-about/img-helper/img-helper.wxml-->
+
+<canvas canvas-id='miniCompress' class='yx-yasuo' style="width: {{canvasW}}px; height: {{canvasH}}px" />

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "mini-compress": "/component/mini-compress/mini-compress"
+  }
+}
