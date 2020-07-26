@@ -74,21 +74,37 @@ wx.yx.chooseImage({
 ```json
 [
     {
-        "path": "http://tmp/touristappid.o6......dfg.jpg",      //未压缩后的图片url
-        "url": "http://tmp/touristappid.06.......2ea.jpg",     //压缩后的图片url
-        "imgId": "imgId_1595767113458_0",      //图片的唯一id，格式为“imgId_时间戳_图片的次序”
-        "originalSize": 391755,   //图片占用空间的大小，单位bytes
-        "format": "jpg",          //图片的后缀
-        "dType": "IMG",           //默认返回IMG
-        "orientation": "up",      //拍照时设备方向
-        "originalHeight": 425,    //原始高度 单位px
-        "originalWidth": 1000,    //原始宽度 单位px
-        "height": 425,            //压缩后的图片高度 单位px
-        "width": 1000,            //压缩后的图片宽度  单位px
-        "h2w": 0.425,             //图片的高宽比
+        "path": "http://tmp/touristappid.o6......dfg.jpg",
+        "url": "http://tmp/touristappid.06.......2ea.jpg",
+        "imgId": "imgId_1595767113458_0",
+        "originalSize": 391755,
+        "format": "jpg",
+        "dType": "IMG", 
+        "orientation": "up",
+        "originalHeight": 425,
+        "originalWidth": 1000,
+        "height": 425,
+        "width": 1000,
+        "h2w": 0.425
     }
 ]
 ```
+
+| 字段 | 类型 | 说明 |
+| ---- | ---- | ---- |
+| path | String | 未压缩后的图片url | 
+| url | String | 未压缩后的图片url |
+| imgId | String | 图片的唯一id，格式为“imgId_时间戳_图片的次序” |
+| originalSize | Number | 原始图片占用的空间，单位bytes |
+| format | String | 图片的后缀 |
+| dType | String | 默认为 IMG |
+| orientation | String | 拍照时设备方向 |
+| originalHeight | Number | 原始高度 单位px |
+| originalWidth | Number | 原始宽度 单位px |
+| height | Number | 高度 单位px |
+| width | Number | 宽度 单位px |
+| h2w | Number | 图片的高宽比 |
+
 
 <br/>
 
