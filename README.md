@@ -93,7 +93,7 @@ wx.yx.chooseImage({
 | 字段 | 类型 | 说明 |
 | ---- | ---- | ---- |
 | path | String | 未压缩后的图片url | 
-| url | String | 未压缩后的图片url |
+| url | String | 压缩后的图片url |
 | imgId | String | 图片的唯一id，格式为“imgId_时间戳_图片的次序” |
 | originalSize | Number | 原始图片占用的空间，单位bytes |
 | format | String | 图片的后缀 |
